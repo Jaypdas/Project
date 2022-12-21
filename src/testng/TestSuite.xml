@@ -1,0 +1,12 @@
+<suite name="HMS suite">
+<test name="HMS Result">
+<classes>
+<class name="testng.HMS_login_logout">
+<methods>
+<include name="verify_login"></include>
+<include name ="signout"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite> 
